@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "Run Test Debugger",
+      "request": "launch",
+      "type": "node",
+      "console": "integratedTerminal",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "test:debug"
+      ],
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    }
+  ],
+  "compounds": []
+}

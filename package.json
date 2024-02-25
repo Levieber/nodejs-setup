@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "node --watch src/service.js",
+    "test": "node --test test/",
+    "test:coverage": "node --test --experimental-test-coverage test/",
+    "test:debug": "node --inspect --test --watch test/"
+  },
+  "author": "Levi Eber",
+  "license": "ISC"
+}
